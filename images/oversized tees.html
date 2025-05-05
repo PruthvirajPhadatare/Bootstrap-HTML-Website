@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Oversized Streetwear Tees | Ruler Mask</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    .page-header {
+      background: black;
+      color: white;
+      padding: 80px 0;
+      text-align: center;
+    }
+
+    .page-header h1 {
+      font-size: 48px;
+      font-weight: 700;
+    }
+
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      padding: 40px 20px;
+    }
+
+    .product-card {
+      background: white;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .product-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .product-card img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+    }
+
+    .product-card:hover img {
+      transform: scale(1.05);
+    }
+
+    .product-info {
+      padding: 20px;
+      text-align: center;
+    }
+
+    .product-info h5 {
+      font-size: 20px;
+      margin-bottom: 8px;
+    }
+
+    .product-info p {
+      font-size: 14px;
+      color: #666;
+    }
+
+    .price {
+      font-weight: bold;
+      color: #000;
+      margin-top: 10px;
+    }
+
+    .quote {
+      text-align: center;
+      font-size: 24px;
+      font-style: italic;
+      margin: 40px 0 0;
+    }
+
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+  </style>
+</head>
+<body>
+
+<div class="page-header">
+  <h1>Oversized Streetwear Tees</h1>
+  <p>Bold. Relaxed. Unapologetically You.</p>
+</div>
+
+<div class="container">
+  <div class="quote">"Oversized isn’t just a fit, it’s a statement."</div>
+
+  <div class="product-grid">
+    <!-- Product Cards -->
+    <div class="product-card">
+      <img src="images/strom.jpg" alt="Urban Storm Tee">
+      <div class="product-info">
+        <h5>Urban Storm Tee</h5>
+        <p>Minimalistic print, breathable cotton</p>
+        <div class="price">₹1499</div>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="images/neo.jpg" alt="Neo Noir Drop Tee">
+      <div class="product-info">
+        <h5>Neo Noir Drop Tee</h5>
+        <p>Boxy cut, jet black street-ready</p>
+        <div class="price">₹1699</div>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="images/graffiti.jpg" alt="Graffiti Slam Tee">
+      <div class="product-info">
+        <h5>Graffiti Slam Tee</h5>
+        <p>All-over abstract graffiti print</p>
+        <div class="price">₹1799</div>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="images/beige.jpg" alt="Core Beige Chill Tee">
+      <div class="product-info">
+        <h5>Core Beige Chill Tee</h5>
+        <p>Neutral tones with relaxed street vibe</p>
+        <div class="price">₹1399</div>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="images/skater.jpg" alt="Skater Pulse Tee">
+      <div class="product-info">
+        <h5>Skater Pulse Tee</h5>
+        <p>Drop shoulder, washed charcoal texture</p>
+        <div class="price">₹1599</div>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="images/ink.jpg" alt="Ink Bleed Tee">
+      <div class="product-info">
+        <h5>Ink Bleed Tee</h5>
+        <p>Dip-dye style in deep navy blue</p>
+        <div class="price">₹1899</div>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="images/mono.jpg" alt="Mono Type Drift Tee">
+      <div class="product-info">
+        <h5>Mono Type Drift Tee</h5>
+        <p>Monochrome print with clean lines</p>
+        <div class="price">₹1499</div>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="images/electric.jpg" alt="Electric Mood Tee">
+      <div class="product-info">
+        <h5>Electric Mood Tee</h5>
+        <p>High voltage print, neon accents</p>
+        <div class="price">₹1999</div>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="images/void.jpg" alt="Void Echo Tee">
+      <div class="product-info">
+        <h5>Void Echo Tee</h5>
+        <p>Abstract blur print in dark tones</p>
+        <div class="price">₹1799</div>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="images/blunt.jpg" alt="Blunt Art Tee">
+      <div class="product-info">
+        <h5>Blunt Art Tee</h5>
+        <p>Hand-drawn street sketches in white ink</p>
+        <div class="price">₹1699</div>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="images/muted.jpg" alt="Muted Riot Tee">
+      <div class="product-info">
+        <h5>Muted Riot Tee</h5>
+        <p>Muted green with asymmetrical design</p>
+        <div class="price">₹1499</div>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="images/cyber.jpg" alt="Cyber Fade Tee">
+      <div class="product-info">
+        <h5>Cyber Fade Tee</h5>
+        <p>Futuristic gradient, tech-inspired palette</p>
+        <div class="price">₹1899</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="quote">"Every thread has a voice. Wear yours louder."</div>
+</div>
+
+<footer>
+  <p>&copy; 2025 Ruler Mask. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
+
